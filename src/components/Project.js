@@ -46,7 +46,7 @@ export default function Project()
                             href={project.link}
                             alt={project.title}
                             target="_blank"
-                            rel="noopener noreffer"
+                            rel="noopener noreferrer"
                             >{project.title}</a>
                         </h3>
                         <div className="text-gray-500 text-xs space-x-4">
@@ -74,10 +74,9 @@ export default function Project()
                                 {project.description}
                             </p>
                             <a href={project.link} 
-                            rel="noopener noreffer" 
                             target="_blank" className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl">
                                 Ver o Projecto{" "}
-                                <span role="img" aria-label="right pointer">👉</span>
+                                <span aria-label="right pointer">👉</span>
                             </a>
 
                             

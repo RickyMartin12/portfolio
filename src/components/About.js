@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import sanityClient from '../client';
-import image from '../image.gif';
+import RicImage from '../image.gif';
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
 
@@ -33,7 +33,7 @@ export default function About()
     return (
         
         <main className="relative">
-            <img src={image} alt="Image Acerca de Mim" className="absolute w-full" />
+            <img src={RicImage} alt="Image Acerca de Mim" className="absolute w-full" />
             <div className="p-10 lg:pt-48 container mx-auto relative">
 
             {author ? (author.map((aut, index) => (
