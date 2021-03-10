@@ -19,19 +19,19 @@ export default function NavBar()
                     className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200  hover:text-yellow-400"
                     activeClassName="text-yellow-500"
                     to="/post">
-                        Blog Posts
+                        Publicações
                     </NavLink>
                     <NavLink 
                     className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200  hover:text-yellow-400"
                     activeClassName="text-yellow-500"
                     to="/project">
-                        Projects
+                        Projectos
                     </NavLink>
                     <NavLink 
                     className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200  hover:text-yellow-400"
                     activeClassName="text-yellow-500"
                     to="/about"> 
-                        About Me
+                        Sobre Mim
                     </NavLink>
                 </nav>
                 <div className="inline-flex py-3 px-3 my-6">
