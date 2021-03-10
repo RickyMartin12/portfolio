@@ -74,6 +74,7 @@ export default function Project()
                                 {project.description}
                             </p>
                             <a href={project.link} 
+                            rel="noreferrer" 
                             target="_blank" className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl">
                                 Ver o Projecto{" "}
                                 <span aria-label="right pointer">👉</span>
